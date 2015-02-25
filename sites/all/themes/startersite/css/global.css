@@ -1,0 +1,155 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/*responsive */
+img{
+max-width:100%;
+	height:auto;
+}
+
+iframe{
+width:100%;
+}
+
+h2.block-title {
+font-size: 23px;
+margin: 0;
+margin-bottom: 0.6em;
+background: black;
+color: white;
+padding:0.3em;
+}
+
+a.sf-depth-1 {
+border-left:1px solid black;
+}
+
+/* breadcrumbs*/
+
+.easy-breadcrumb{
+border-bottom:  1px solid #f1f1f1;
+border-top:  1px solid #f1f1f1;
+}
+/* menu */
+
+ul#superfish-1.menu{
+font-size: 24px;
+font-family: Nunito;
+float: right;
+}
+
+ul#superfish-2.menu{
+font-size: 120%;
+font-family: Nunito;
+}
+
+li.active-trail a{
+background: none;
+color: #E63742;
+}
+
+
+.sf-menu li.active-trail a {
+color: #E63742;
+}
+
+/* quickbar */
+div#quickbar div.depth-0 {
+overflow: hidden;
+height: 100%;
+line-height: 20px;
+padding: 5px 10px;
+}
+
+/* adopt now /*/
+
+div.field.field-name-field-adopt-now-link.field-type-link-field.field-label-hidden{
+background: red;
+}
+
+h2.adopt-now-link a{
+	color: white;
+  font-family: Nunito, serif;
+  background-color: #E63742;
+  text-decoration: none;
+  padding: 0.5em;
+  }
+  
+  h2.adopt-now-link a:hover{
+  color: black;
+  }
+ .adopter-title{
+ margin-bottom: -0.3em;
+  } 
+  .adopter-type{
+  font-weight: bolder;
+  }
+  
+  .block-nodequeue-1-block h2.block-title{
+  color: black;
+  background-color: white;
+ margin-top:1em;
+  }
+  
+/* Make site titles the same size if it's an H1 (home) or H2 (internal) */
+h1.site-name a,
+h2.site-name a{
+	font-size: 36px;
+	font-weight: 100;
+	color: black;
+}
+
+/* front basic page float image right */
+div.basic-page-image {
+float: right;
+max-width: 450px;
+padding-left: 1em;
+}
+
+
+
+
+
+/* from omega text */
+
+body {
+  font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue",Tahoma,Helvetica,Arial,sans-serif
+  line-height:1.6;
+}
+
+a:link, a:visited {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #202124;
+  text-decoration: none;
+}
+
+a:active {
+  color: #202124;
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #f1f1f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Nunito, serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}

@@ -1,0 +1,86 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+div#zone-menu div#block-superfish-1{
+ float:right;
+ }
+ 
+a.sf-menu-depth-1.active {
+  color: red;
+} 
+div#block-superfish-2{
+margin-top: 1em;
+}
+
+li a.sf-depth-1{
+text-decoration: none;
+}
+ul#superfish-2 { 
+	text-align: center; 
+	float: none; 
+	}
+#superfish-2 > li { 
+	display: inline-block; 
+	float: none; 
+	}
+	
+a.sf-depth-1 {
+border-left:none;
+}
+
+.sf-menu.sf-style-default a {
+    border-left: 1px solid #FFF;
+    border-top: transparent;
+    padding: 0.75em 1em;
+}
+li.sf-item-1 a {
+    border-left: 1px solid #000;
+   
+}
+  
+div#zone-user-wrapper{
+ background-repeat: repeat-x;
+ background-image: url('../images/black.jpg');
+}
+
+div#zone-footer-wrapper, div#zone-footer-wrapper a{
+background: black;
+color: white;
+}
+
+div#zone-footer-wrapper a:hover{
+	color: #E63742;
+  text-decoration: none;
+}
+
+html, body {height: 100%; margin: 0;}
+#page {display: table; width: 100%;}
+html>/**/body #page {height: 100%;}
+*:first-child+html #page {height: auto;}
+.section {display: table-row;}
+html>/**/body .section-content {height: 100%;}
+*:first-child+html body .section-content {height: auto;}
+
+/*
+div#flexslider-1.flexslider.flexslider-processed{
+ position: relative;
+ top:-100px;
+ z-index: 40;
+ }
+
+ 
+div.logo-img{
+  z-index: 50;
+  position: relative;
+}
+  
+  
+*/
+
+/* Adoptee*/
+
+li#menu-1632-2 a{
+border-left: none;
+}

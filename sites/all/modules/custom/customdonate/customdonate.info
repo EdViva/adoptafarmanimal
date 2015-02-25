@@ -1,0 +1,5 @@
+name = Custom Donate Block
+description = Custom Donate PHP Code Block
+package = Own
+core = "7.x"
+version = "7.x.1"

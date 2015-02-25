@@ -1,0 +1,17 @@
+name = Units UI
+description = Provide user interface for managing available units and conversions between them.
+package = Units
+core = 7.x
+
+dependencies[] = units
+
+files[] = includes/UnitsMeasureUIController.class.inc
+files[] = includes/UnitsUnitUIController.class.inc
+
+
+; Information added by  packaging script on 2013-11-11
+version = "7.x-1.0-alpha2"
+core = "7.x"
+project = "units"
+datestamp = "1384205305"
+

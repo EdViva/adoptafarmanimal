@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ana_pricing feature.
+ */
+
+include_once('ana_pricing.features.inc');

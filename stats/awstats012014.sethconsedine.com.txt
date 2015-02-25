@@ -1,0 +1,474 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.sethconsedine.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1963                
+POS_TIME 2650                
+POS_VISITOR 7302                
+POS_DAY 7487                
+POS_DOMAIN 3443                
+POS_LOGIN 3694                
+POS_ROBOT 3849                
+POS_WORMS 4134                
+POS_EMAILSENDER 4265                
+POS_EMAILRECEIVER 4408                
+POS_SESSION 7731                
+POS_SIDER 7938                
+POS_FILETYPES 4543                
+POS_OS 4793                
+POS_BROWSER 4882                
+POS_SCREENSIZE 5151                
+POS_UNKNOWNREFERER 5225                
+POS_UNKNOWNREFERERBROWSER 5312                
+POS_ORIGIN 5394                
+POS_SEREFERRALS 5534                
+POS_PAGEREFS 5689                
+POS_SEARCHWORDS 5837                
+POS_KEYWORDS 5989                
+POS_MISC 2313                
+POS_ERRORS 6048                
+POS_CLUSTER 3550                
+POS_SIDER_404 6185                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140201024259 1251 255963 11719384231588
+FirstTime 20140124025838
+LastTime 20140130233958
+LastUpdate 20140202000221 1251 0 0 1 1249
+TotalVisits 45                  
+TotalUnique 2                   
+MonthHostsKnown 1                   
+MonthHostsUnknown 1                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 12 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 199 466 4652407 27 33 54390
+1 110 653 2763760 23 51 64257
+2 250 974 5139363 59 98 196652
+3 219 2172 7799910 71 87 63430
+4 55 359 1369972 24 30 53606
+5 32 132 929971 17 22 70623
+6 0 0 0 2 5 15928
+7 1 23 157144 11 44 113093
+8 11 109 796967 3 12 68016
+9 34 190 1123524 9 29 46498
+10 9 73 527876 4 11 23218
+11 78 258 1861039 10 14 48349
+12 24 91 687139 5 8 29630
+13 5 56 396001 3 17 120144
+14 50 106 843515 14 15 26590
+15 128 247 1775113 19 20 13174
+16 56 118 817802 18 24 29342
+17 45 123 908967 7 7 140
+18 5 38 292589 4 7 16949
+19 3 7 36493 1 1 649
+20 1 45 337745 13 15 57230
+21 75 219 1049307 16 16 13206
+22 57 390 2064888 15 18 20182
+23 262 632 5759041 52 56 31647
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+nz 1620 6884 38662564
+ip 89 597 3427969
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 194 629065 20140131133854 12
+yandex 42 205111 20140131231712 9
+bot[\s_+:,\.\;\/\\-] 20 125101 20140127071418 3
+spider 2 13194 20140129202325 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 2632 3362152 0 0
+php 13 13202 0 0
+png 629 1830078 0 0
+ttf 46 1777356 0 0
+html 485 4888988 0 0
+jpg 796 5999367 0 0
+js 1651 12879901 0 0
+jpeg 32 317364 0 0
+Unknown 1165 10986533 0 0
+gif 32 35592 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 7443
+winlong 1
+winxp 6
+linux 19
+win2008 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+msie6.0 5
+safari7.0 1373
+firefox15.0 508
+chrome32.0.1700.77 23
+firefox26.0 361
+firefox23.0 1
+firefox21.0 1
+safari5.1.9 4767
+chrome31.0.1650.63 34
+msie9.0 9
+firefox7.0.1 1
+safari7.0.1 176
+safari5.0.5 61
+safari5.0.2 161
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 109 149
+From1 0 0
+From2 7 7
+From3 0 0
+From4 1593 7325
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 8 49735
+302 273 5466
+500 10 430
+404 25 136301
+301 52 1040
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/apple-touch-icon-precomposed.png 1 -
+/apple-touch-icon.png 1 -
+/admin.php 1 -
+/qwcuhkrrevbw.html 1 -
+/treatments-and-common-complaints 2 http://www.sethconsedine.com/
+/viliioupqezihn.html 1 -
+/administrator/index.php 1 -
+/tratment/treatments 2 -
+/apple-touch-icon-120x120.png 1 -
+/emxdnhdfveesboqi.html 1 -
+/pma/scripts/setup.php 1 http://sethconsedine.com/pma/scripts/setup.php
+/myadmin/scripts/setup.php 1 http://sethconsedine.com/myadmin/scripts/setup.php
+/appointments-old 2 http://www.sethconsedine.com/admin/structure/views/view/clinics/edit/page
+/administrator 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/phpMyAdmin/scripts/setup.php 1 http://sethconsedine.com/phpMyAdmin/scripts/setup.php
+/wp-login.php 2 -
+/components/com_content/router.php 2 -
+/book 2 http://www.sethconsedine.com/contact
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+anahassel.container.sitehost.co.nz 1620 6884 38662564 20140130233958
+87.112.50.191 89 597 3427969 20140124035214
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20140124 126 1020 5396480 8
+20140125 84 480 3015580 7
+20140126 31 168 937505 4
+20140127 10 112 498895 3
+20140128 370 921 8025257 7
+20140129 815 3105 16218529 9
+20140130 273 1675 7998287 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 1
+15mn-30mn 7
+2mn-5mn 1
+0s-30s 16
+30s-2mn 5
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 186
+/ 485 4888988 30 24
+/treatments 128 937512 4 8
+/appointments 83 776496 4 2
+/ckeditor/xss 82 33742 0 0
+/osteopathy 73 588793 1 4
+/about-seth-consedine 59 583685 2 3
+/sites/default/files/fontyourface/local_fonts/BreeSerif_Reg-normal-normal/BreeSerif_Reg.ttf 46 1777356 0 0
+/user 41 255050 2 1
+/admin/content 34 273279 0 0
+/contact 32 295121 0 1
+/users/siteeditor 7 46379 0 0
+/file/ajax/field_image/und/0/form-pc7mfkqPPwGybCv07HGqm1FrJB2AklbDsTLWS0aUTac 2 1998 0 0
+/admin/structure/views/ajax/display/clinics/block_1/style_options 8 152038 0 0
+/admin/config/search/metatags/config/global%3Afrontpage 1 10366 0 0
+/file/ajax/field_clinic_logo/und/0/form-FPcU9EUpqqd9HK4zAObxngQWUshZFL23xutcEUeNr7c 2 2148 0 0
+/admin/config/media/picture/groups/wide_screen 2 16476 0 0
+/admin/structure/block/manage/views/what_i_treat-block_2/configure 1 20027 0 0
+/node/24/nodequeue 1 6907 0 0
+/admin/structure/menu/manage/menu-web-admin 3 27740 0 0
+/admin/structure/views/add 2 20234 0 0
+/admin/config/administration 1 7196 0 0
+/js/admin_menu/cache/8ae8ed41a698f72a63a28dde2af954e5 1 4493 0 0
+/js/admin_menu/cache/3b4242d62846cbd9c58c93f466a9e61e 1 4503 0 0
+/admin/config/media/breakpoints 1 9383 0 0
+/admin/structure/views/ajax/display/responsive_clinic_block/block/title 1 2630 0 0
+/file/ajax/field_image/und/0/form-i0EBcYRQ1IAlvrxMdrnbtrNlopLGJP0iMeHrF4TgBnM 1 1239 0 0
+/tratment/anas-test-0 1 7268 0 0
+/links 7 43779 0 0
+/admin/structure/views/view/responsive_clinic_block 4 44788 0 0
+/admin/structure/views/view/clinics/preview/block_1/ajax 16 207985 0 0
+/admin/reports/event/1906 3 13633 0 0
+/admin/config/media/picture/settings 2 15378 0 0
+/admin/people 4 38922 0 0
+/admin/structure/context/list/appointments/edit 3 62817 0 0
+/node/add/what-i-treat 21 231100 0 0
+/node/25/edit 1 10644 0 0
+/user/12/edit 1 17810 0 0
+/file/progress/693288499 1 48 0 0
+/admin/config/people/accounts 2 22949 0 0
+/node/2/edit 9 100212 1 0
+/node/6/edit 4 51743 0 0
+/batch 2 14500 0 0
+/user/register 1 6026 0 0
+/js/admin_menu/cache/42469bdf3d8c29d5e90ba58d3bd06c2c 1 4396 0 0
+/file/ajax/field_image/und/0/form-FW7g1vSJ65NUQx8loaadiLR913BARvv-OE9je9jhl_g 2 2004 0 0
+/admin/structure/types/manage/what_i_treat/fields/body/field-settings 1 7780 0 0
+/admin/structure/context/add 2 40607 0 0
+/admin/config/search/metatags 1 8412 0 0
+/node/add/page 3 40812 0 0
+/admin/modules/uninstall 5 39019 0 0
+/book/osteopathic-sense 1 7149 0 0
+/admin/structure/views/ajax/display/clinics/block_1/row_plugin 4 71983 0 0
+/file/ajax/field_image/und/0/form-c0WqJph5b7zmHoeAwWeLnw1d_bnK3V4_o8eKftWiY1w 1 1194 0 0
+/admin/structure/views/ajax/config-item/what_i_treat/block_1/sort/qid 1 6441 0 0
+/node/6/webform-results 1 6972 0 0
+/admin/structure/menu/item/932/delete 1 7492 0 0
+/admin/structure/types/manage/what-i-treat 2 23830 0 0
+/file/ajax/field_clinic_logo/und/0/form-uUrhB68Mpsu53d3Ci4Zm4zA1x3CHA9a0-TQ2OOpJx1o 2 2147 0 0
+/admin/structure/views/ajax/display/clinics/page/path 2 28849 0 0
+/node/6/webform/emails 4 14653 0 0
+/admin/structure/nodequeue/1/edit 1 9012 0 0
+/admin/structure/nodequeue 12 84500 0 0
+/node/7/edit 2 29697 0 0
+/js/admin_menu/cache/73b8bc949f6c0b3e9a31fdd56c199ebf 1 4453 0 0
+/admin/people/permissions 6 146692 0 0
+/node/23/edit 7 106324 0 0
+/system/ajax 5 67549 0 0
+/admin/config/media/picture/groups/sethomega 1 8235 0 0
+/admin/structure/context/list/front/edit 4 84507 0 0
+/token/tree 1 19787 0 0
+/admin/config/workflow/rules 1 4036 0 0
+/admin/config/development/reroute_email 2 7237 0 0
+/file/ajax/field_image/und/0/form-2w7jF3QRhK0OA_NX1YWkl6LxzBlklxmZXPVaWVj_HqM 1 1198 0 0
+/node/14/edit 11 126793 0 0
+/js/admin_menu/cache/ab0c187c5546ba1a467837259bf60813 1 4507 0 0
+/node/6/webform/components/1 1 5039 0 0
+/admin/content/webform 1 3096 0 0
+/admin/config/workflow/rules/reaction/manage/rules_clear_cache/add/1/action 1 4065 0 0
+/admin/structure/context/list/testpage/edit 2 41187 0 0
+/admin/structure/types/manage/what_i_treat/fields/body 3 33501 0 0
+/admin/structure/block/manage/views/responsive_clinic_block-block/configure 1 19997 0 0
+/admin/structure/views/view/clinics/edit/page 3 33797 0 0
+/admin/config/user-interface 1 7330 0 0
+/node/3/edit 6 87451 0 0
+/admin/config/media/picture 1 7465 0 0
+/admin/structure/views/ajax/rearrange/what_i_treat/block_1/sort 2 32590 0 0
+/admin/structure/menu/parents 5 10 0 0
+/admin/structure/views/view/what_i_treat/preview/block_1/ajax 4 67017 0 0
+/file/progress/1578931755 1 48 0 0
+/node/6/done 2 10876 0 1
+/admin/people/permissions/4 1 16012 0 0
+/admin/config/media/breakpoints/groups/add 1 8326 0 0
+/node/24/edit 2 21332 0 0
+/js/admin_menu/cache/8f1d1feeca3d7ee2709f597587c2c771 1 4429 0 0
+/admin/config/content/formats/full_html 1 10874 0 0
+/admin/structure/context/list/treatment/edit 1 20656 0 0
+/node/9/edit 4 42957 0 0
+/admin/people/permissions/roles 2 16820 0 0
+/admin/config/development/varnish 9 56737 1 0
+/node/5/edit 1 14771 0 0
+/admin/reports/status 1 8668 0 0
+/node/6/webform 2 8283 0 0
+/admin/structure/menu/manage/menu-web-admin/add 1 9994 0 0
+/admin/modules/list/confirm 2 27629 0 0
+/js/admin_menu/cache/214a2aef6d79497d1b0fa09729fd7e48 7 31592 0 0
+/admin/reports/event/1902 1 3066 0 0
+/admin/people/permissions/roles/edit/4 1 7669 0 0
+/admin/structure/views/view/responsive_clinic_block/edit/block 4 44822 0 0
+/js/admin_menu/cache/5e829570b545179de8c1df43c2e3c92d 1 4507 0 0
+/admin/config/workflow/rules/reaction/add 1 4304 0 0
+/file/progress/989516782 1 48 0 0
+/file/ajax/field_image/und/0/form-YzO7BXbesCEn-NizijuP4D0Z8mqbGOYs6wdXJ2ImPxc 2 2004 0 0
+/admin/structure/menu 1 7642 0 0
+/admin/config/development/performance 32 241426 0 0
+/admin/appearance/settings/sethomega 13 349109 0 0
+/admin/config/workflow/rules/reaction/manage/rules_clear_cache 1 5534 0 0
+/admin/reports/dblog 2 15654 0 0
+/admin/structure/views/ajax/display/responsive_clinic_block/block/style_options 12 236046 0 0
+/admin/config/media/breakpoints/settings 1 7731 0 0
+/file/ajax/field_image/und/0/form-L8Pm4BftVXthJk-BYDFdshsJyNfs2dWl8rDU9oa4mlg 2 2006 0 0
+/admin/structure/views/view/clinics 2 22406 0 0
+/node/8/edit 1 10682 0 0
+/admin/config/media/breakpoints/create_style 1 8366 0 0
+/admin/modules 25 595794 0 0
+/admin/structure/views/view/availability_clinics/preview/block_1/ajax 2 23626 0 0
+/admin/structure/views/ajax/display/clinics/block_1/block_description 2 28146 0 0
+/admin/structure/views/view/availability_clinics/edit/block_1 1 11393 0 0
+/user/7/edit 2 27278 0 0
+/admin/structure/views/ajax/config-item/responsive_clinic_block/block/filter/type 4 72709 0 0
+/js/admin_menu/cache/0f46a61a41a1c9362de90175ceef39d4 1 4505 0 0
+/tratment/treatment-techniques 1 7269 0 0
+/admin/modules/install 4 18142 0 0
+/admin/config/workflow/rules/reaction/manage/rules_clear_cache/edit/1 2 7308 0 0
+/admin/structure/context/list/testpage/delete 1 7430 0 0
+/node/25/delete 1 6964 0 0
+/admin/config/content/ckeditor 1 8042 0 0
+/admin/content/comment 1 7853 0 0
+/admin/config/media/breakpoints/groups/wide_screen 1 8861 0 0
+/file/ajax/field_image/und/0/form-0R8hqvPmUc05Ee8mapSOUActkQ7J8j8qTjG1KXHekWY 2 2164 0 0
+/js/admin_menu/cache/2a6ccd2a9bc99f6a9f56d0e9452bd252 1 4413 0 0
+/admin/structure/views/ajax/display/clinics/block_1/row_options 3 59373 0 0
+/node/6/webform/emails/1 2 10722 0 0
+/admin/structure/views/ajax/display/responsive_clinic_block/block/style_plugin 4 93565 0 0
+/admin/config/content/formats 1 8380 0 0
+/admin/structure/views/ajax/display/responsive_clinic_block/block/row_options 2 32051 0 0
+/admin/structure/views/view/clinics/edit/block_1 5 56006 0 0
+/node/15/edit 24 283623 0 0
+/admin/structure/views/ajax/display/responsive_clinic_block/block/row_plugin 4 52319 0 0
+/js/admin_menu/cache/907a5e3ec85d5a8a9d67275b648d1976 2 9020 0 0
+/admin/structure/views/ajax/add-item/what_i_treat/block_1/sort 2 79015 0 0
+/admin/structure/views 1 10071 0 0
+/admin/structure/views/view/what_i_treat 2 22452 0 0
+/users/admin 24 282136 0 0
+/admin/structure/context 20 168014 0 0
+/admin/structure/nodequeue/1/view/1 17 137690 0 0
+/update.php 4 6080 0 0
+/admin/structure/menu/manage/main-menu 5 48080 0 0
+/tratment/back-and-neck-pain 1 7125 0 0
+/admin/structure/types/manage/what-i-treat/fields/body 1 11162 0 0
+/node/13/edit 1 10624 0 0
+/node/add 13 85472 0 0
+/admin/structure/block/manage/views/availability_clinics-block_1/configure 3 59640 0 0
+/testpage 13 162356 0 0
+/admin/config/workflow/rules/reaction/manage/rules_clear_cache/add/event 1 3939 0 0
+/admin/config/system/site-information 3 25152 0 0
+/admin/structure/types/manage/what_i_treat/fields 2 24028 0 0
+/admin/structure/views/ajax/display/availability_clinics/block_1/title 2 32198 0 0
+/file/progress/643209920 1 48 0 0
+/admin/structure/types 3 23204 0 0
+/admin/structure/views/ajax/display/clinics/block_1/style_plugin 3 49472 0 0
+/users/seth 9 61295 0 0
+/js/admin_menu/cache/b6adb784955ae7674502feac4a0ceede 1 4513 0 0
+/authorize.php 9 7122 0 0
+/admin/config/user-interface/responsive_menus 5 44646 0 0
+/file/ajax/field_image/und/0/form-1-lPOmG_goKpr23yW6Rh2Z4CQbKsTCVnslAUnnk5U3k 1 1187 0 0
+/node/16/edit 2 21270 0 0
+/js/admin_menu/cache/1c27232b41df718043d14d50e19d4c9f 1 4513 0 0
+/admin/structure/types/manage/snippets/display/teaser 1 10443 0 0
+/appointments-old 4 52156 0 0
+/admin/structure/types/manage/what_i_treat/fields/body/widget-type 1 7833 0 0
+/admin/structure/views/ajax/config-item/what_i_treat/block_1/sort/position 1 27649 0 0
+/admin/structure/types/manage/what_i_treat 3 35945 0 0
+/tratment/headaches 1 5933 0 1
+/admin/structure/views/view/responsive_clinic_block/preview/block/ajax 20 270642 0 0
+/admin/modules/uninstall/confirm 3 22644 0 0
+/admin/structure/views/view/clinics/preview/page/ajax 7 116155 0 0
+END_SIDER

@@ -1,0 +1,43 @@
+body{
+/* background: green; */
+}
+
+div#zone-user-wrapper{
+ background: url('../images/black.jpg') repeat-x;
+/*  background-color: black; */
+}
+
+ul#superfish-1{
+background: black;
+position: relative;
+top:-155px;
+}
+
+
+div.block-customdonate{
+position: absolute;
+top:-80px;
+right:0;
+}
+
+div#zone-footer{
+background-color: black;
+color: white;
+}
+.sf-menu.sf-style-default li, .sf-menu.sf-style-default.sf-navbar{
+background: none;
+}
+.sf-menu.sf-style-default li a{
+color: red;
+}
+
+ul#superfish-2{
+width:50%;
+margin-left:25%;
+margin-right: 25%;
+font-size: 50%;
+}
+
+.sf-menu.sf-style-default a{
+color: white;
+}

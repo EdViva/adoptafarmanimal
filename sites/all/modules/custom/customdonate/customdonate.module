@@ -1,0 +1,31 @@
+<?php
+/**
+ * @file
+ * An example module for how to create a module tutorial.
+ */
+function customdonate_block_info() {
+  // This example comes from node.module.
+  $blocks['customdonate'] = array(
+    'info' => t('Donate Online'),
+  );
+
+   return $blocks;
+}
+
+function customdonate_block_view($delta = '') {
+  // This example is adapted from node.module.
+  $block = array();
+
+  switch ($delta) {
+    case 'customdonate':
+      $block['subject'] = t('Donate Online');
+      $block['content'] = "<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">
+<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">
+<input type=\"hidden\" name=\"hosted_button_id\" value=\"DGSCK4LFL84P2\">
+<input type=\"image\" src=\"https://www.paypal.com/en_US/GB/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online.\">
+<img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_GB/i/scr/pixel.gif\" width=\"1\" height=\"1\">
+</form>";
+      break;
+     }
+  return $block;
+}

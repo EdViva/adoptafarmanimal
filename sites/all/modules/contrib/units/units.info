@@ -1,0 +1,16 @@
+name = Units
+description = Provide API for managing and converting units of measurement.
+package = Units
+core = 7.x
+
+dependencies[] = entity
+
+files[] = includes/UnitsMeasureEntity.class.inc
+files[] = includes/UnitsUnitEntity.class.inc
+
+; Information added by  packaging script on 2013-11-11
+version = "7.x-1.0-alpha2"
+core = "7.x"
+project = "units"
+datestamp = "1384205305"
+
