@@ -1,1 +1,10 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/*
+ div#zone-user-wrapper{
+ background: green;
+ }
+*/
+  .sf-menu.sf-style-white a{
+font-size:60%;
+} 

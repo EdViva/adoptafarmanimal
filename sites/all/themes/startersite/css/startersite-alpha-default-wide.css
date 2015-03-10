@@ -1,1 +1,10 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
+/*
+ div#zone-user-wrapper{
+ background: yellow;
+ }
+*/
+ 
+ .sf-menu.sf-style-white a{
+font-size:70%;
+} 
